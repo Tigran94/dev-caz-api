@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="sampleTest" parallel="classes" time-out="15000000">
+
+    <test name="Test" verbose="1">
+        <packages>
+            <package name="apiTests.*"> </package>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,58 @@
+{
+  "required": [
+    "id",
+    "country_id",
+    "timezone_id",
+    "username",
+    "email",
+    "name",
+    "surname",
+    "gender",
+    "phone_number",
+    "birthdate",
+    "bonuses_allowed",
+    "is_verified"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "country_id": {
+      "type": "null"
+    },
+    "timezone_id": {
+      "type": "null"
+    },
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "surname": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "null"
+    },
+    "phone_number": {
+      "type": "null"
+    },
+    "birthdate": {
+      "type": "null"
+    },
+    "bonuses_allowed": {
+      "type": "boolean",
+      "const": true
+    },
+    "is_verified": {
+      "type": "boolean",
+      "const": false
+    }
+  },
+  "additionalProperties": false
+
+}

@@ -1,0 +1,26 @@
+{
+  "required": [
+    "name",
+    "message",
+    "code",
+    "status"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "const": "Not Found"
+    },
+    "message": {
+      "type": "string",
+      "pattern": "^Object not found:"
+    },
+    "code": {
+      "type": "integer",
+      "const": 0
+    },
+    "status": {
+      "type": "integer",
+      "const": 404
+    }
+  }
+}

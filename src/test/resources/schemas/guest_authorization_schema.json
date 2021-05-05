@@ -1,0 +1,21 @@
+{
+  "required": [
+    "token_type",
+    "expires_in",
+    "access_token"
+  ],
+  "properties": {
+    "token_type": {
+      "type": "string",
+      "const": "Bearer"
+    },
+    "expires_in": {
+      "type": "integer"
+    },
+    "access_token": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+
+}
